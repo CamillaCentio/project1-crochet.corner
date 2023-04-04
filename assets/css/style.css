@@ -385,3 +385,66 @@ button:hover {
     text-align: center;
 }
 
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .signup-form {
+        width: 100%;
+    }
+}
+
+/* Next meeting */
+.next-meeting {
+    width: 50%;
+    text-align: center;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .next-meeting {
+      width: 100%;
+    }
+}
+
+/* Form row */
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.form-row label 
+.form-row input {
+    width: 48%;
+    box-sizing: border-box;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .form-row label,
+    .form-row input {
+      width: 100%;
+      margin-bottom: 0.5rem;
+    }
+}
+
+.upcoming-meetings {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .upcoming-meetings li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .upcoming-meetings li:last-child {
+    border-bottom: none;
+  }
+  /* Hamburger menu styles */
+  .hamburger {
+    display: none;
+    cursor: pointer;
+  }
+
+  
