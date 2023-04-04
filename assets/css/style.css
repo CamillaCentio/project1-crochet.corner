@@ -137,3 +137,180 @@ header {
     padding: 2rem;
     background-color:hsla(298, 73%, 84%, 0.681);
 }
+
+.container-information {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* footer section */
+footer {
+    padding: 2rem;
+    background-color: #4a90e2;
+    text-align: center;
+}
+
+.social-networks {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.social-networks a {
+    font-size: 1.5rem;
+    margin: 0 0 0.5rem;
+    color: #fff;
+}
+
+.social-networks a:hover {
+    color: #f0f0f0;
+}
+
+/* Card container */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: row;
+}
+
+/* Card style */
+.card {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    border-radius: 50 px 20 px;
+    max-width: 400px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.card-signup {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    border-radius: 50 px 20 px;
+    max-width: 400px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.card-contact {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    border-radius: 50 px 20 px;
+    max-width: 400px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Round image */
+.round-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 1rem;
+}
+
+/* Gallery styles */
+#gallery {
+    padding: 2rem;
+    text-align: center;
+}
+#gallery h2 {
+    margin-bottom: 1.5rem;
+}
+
+/* Gallery card styles */
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+/* Lightbox styles */
+.lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+}
+
+.lightbox:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.lightbox img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 5px;
+}
+
+.lightbox a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* Sign up */
+#signup {
+    padding: 2rem;
+    text-align: center;
+}
+
+.signup-form .card {
+    padding: 2rem;
+}
+
+.signuo-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-row {
+    display: flex;
+    gap: 1rem;
+}
+
+.form-group {
+    flex: 1;
+}
+
+.round-image2 {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.round-image2 img {
+    border-radius: 50%;
+    max-width: 400px;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
