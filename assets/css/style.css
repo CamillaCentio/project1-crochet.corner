@@ -80,3 +80,13 @@ header {
     align-items: center;
     position: relative;
 }
+
+#cover-text {
+    text-align: center;
+    color:#fff;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+    background-color: hsl(298, 62%, 89%);
+    border-radius: 5px;
+}
