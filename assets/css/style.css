@@ -87,6 +87,47 @@ header {
     font-size: 2rem;
     font-weight: bold;
     padding: 1rem;
-    background-color: hsl(298, 62%, 89%);
+    background-color: hsla(298, 73%, 84%, 0.681);
     border-radius: 5px;
+}
+/* About us section */
+#about {
+    padding: 2rem;
+    background-color: #fce8fc;
+}
+
+#welcome {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.container-about {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.fa-sun
+.fa-heart
+.fa-feather {
+    color: #251926;
+}
+
+#about-photos {
+    margin-top: 2rem;
+}
+
+#circle-container {
+    display: flex;
+    justify-content: center;
+}
+
+#circle-cover-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url("");
+    background-size: cover;
+    
 }
