@@ -39,5 +39,44 @@ header {
     left: 0;
     right: 0;
     z-index: 10000;
-    
+}
+
+#logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+}
+
+#menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+#menu li {
+    margin-left: 1rem;
+}
+
+#menu a {
+    color: #000;
+}
+
+#menu a:hover {
+    color: #f0f0f0;
+}
+
+/* Hero section */
+#hero-outer {
+    position: relative;
+    overflow: hidden;
+}
+
+#hero-image {
+    background-image: url("/assets/images/img16.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
