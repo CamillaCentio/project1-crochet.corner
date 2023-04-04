@@ -127,7 +127,13 @@ header {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background-image: url("");
+    background-image: url('../images/img9.jpg');
     background-size: cover;
-    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Information section */
+#info {
+    padding: 2rem;
+    background-color:hsla(298, 73%, 84%, 0.681);
 }
