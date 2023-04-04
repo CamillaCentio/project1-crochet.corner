@@ -134,7 +134,7 @@ header {
 /* Information section */
 #info {
     padding: 2rem;
-    background-color:hsla(298, 73%, 84%, 0.681);
+    background-color:#fce8fc;
 }
 
 .container-information {
@@ -143,10 +143,10 @@ header {
     text-align: center;
 }
 
-/* footer section */
+/* Footer section */
 footer {
     padding: 2rem;
-    background-color: #4a90e2;
+    background-color: hsl(310, 79%, 72%);
     text-align: center;
 }
 
@@ -159,8 +159,8 @@ footer {
 
 .social-networks a {
     font-size: 1.5rem;
-    margin: 0 0 0.5rem;
-    color: #fff;
+    margin: 10px;
+    color: #000;
 }
 
 .social-networks a:hover {
@@ -181,20 +181,12 @@ footer {
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 1.5rem;
-    border-radius: 50 px 20 px;
+    border-radius: 50px 20px;
     max-width: 400px;
     text-align: center;
     margin-bottom: 2rem;
 }
-.card-signup {
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 1.5rem;
-    border-radius: 50 px 20 px;
-    max-width: 400px;
-    text-align: center;
-    margin-bottom: 2rem;
-}
+
 .card-contact {
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
