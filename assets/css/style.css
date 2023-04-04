@@ -447,4 +447,51 @@ button:hover {
     cursor: pointer;
   }
 
+  /* Media query for screen width below 768px */
+@media (max-width: 767px) {
+    /* Hide the regular menu */
+    #menu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: white;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      z-index: 999;
+      padding: 1rem;
+    }
   
+    /* Show the hamburger menu */
+    .hamburger {
+      display: block;
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+    }
+
+    /* Show the mobile menu when the checkbox is checked */
+  #menu-toggle:checked ~ #menu {
+    display: block;
+  }
+
+  #menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  #menu li {
+    flex: 1;
+  }
+
+  #menu a {
+    color: #333;
+    text-decoration: none;
+  }
+}
+
+/* Hide the checkbox input */
+#menu-toggle {
+    display: none;
+  }
