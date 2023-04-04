@@ -116,8 +116,7 @@ header {
 }
 
 .fa-sun
-.fa-heart
-.fa-feather {
+.fa-heart {
     color: #251926;
 }
 
@@ -132,6 +131,21 @@ header {
     margin: 0 auto;
     text-align: center;
 }
+
+p .fa-instagram {
+    font-size: 95px;
+    margin-top: 5px;
+  }
+  
+  p .fa-youtube {
+    font-size: 95px;
+    margin-top: 5px;
+  }
+  
+  p .fa-download {
+    font-size: 95px;
+    margin-top: 5px;
+  }
 
 /* Footer section */
 footer {
