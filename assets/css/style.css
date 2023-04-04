@@ -191,6 +191,16 @@ footer {
     margin-bottom: 2rem;
 }
 
+.card-thanks {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    padding: 1.5rem;
+    border-radius: 50px 20px;
+    max-width: 400px;
+    text-align: center;
+    margin: 2rem auto;
+  }
+
 /* Round image */
 .round-image {
     border-radius: 50%;
