@@ -277,7 +277,7 @@ footer {
     padding: 2rem;
 }
 
-.signuo-form label {
+.signup-form label {
     display: block;
     margin-bottom: 0.5rem;
     font-weight: bold;
@@ -362,4 +362,26 @@ button:hover {
      background-color: #2c387e;
 }
 
-/*  */
+/* Next Meeting */
+#next-meeting {
+    padding: 2rem;
+    text-align: center;
+}
+
+#next-meeting h2 {
+    margin-bottom: 1.5rem;
+}
+
+/* Sign up container */
+.signup-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+/* Sign up form */
+.signup-form {
+    width: 50%;
+    text-align: center;
+}
+
