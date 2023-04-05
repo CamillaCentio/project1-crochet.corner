@@ -1,11 +1,12 @@
-<div **align**="center">
+<div align="center">
 <a href="https://camillacentio.github.io/project1-crochet.corner" target="blank"></a>
 
-<h2 **align**="center">Project 1 - Crochet Corner</h2>
+<h2 align="center">Project 1 - Crochet Corner</h2>
 
-<p **align**="center">
+<p align="center">
 My first project with Code Institute in HTML and CSS. 
-<br>
+
+![Alt text](assets/images/pic1.png)
 <br>
 <a href="https://camillacentio.github.io/project1-crochet.corner/">View Demo Website</a>
 </p>
@@ -58,4 +59,25 @@ The navigation is clear and easy for users to navigate through.
 - Have not found any bugs. 
 
 # Validator
+#### HTML
+- Did not show any problems when I did run it in W3C validator. 
+
+#### CSS
+- Did not show any problems in W3C validator. 
+
+#### Lighthouse
+- Accessibility is okey for this project. 
+
+![Lighthouse](assets/images/lighthouse.png)
+
+
+# Credit
+ - Pictures on the page is mostly taken by my self, except for 1 picture on the sign up page. 
+ - Logos is taken from: [Font-awesome] (https://fontawesome.com/)
+ 
+
+
+
+
+
 
