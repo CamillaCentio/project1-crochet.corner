@@ -93,6 +93,7 @@ header {
     background-color: hsla(298, 73%, 84%, 0.681);
     border-radius: 5px;
 }
+
 /* About us section */
 #about {
     padding: 2rem;
@@ -183,7 +184,7 @@ footer {
 /* Card style */
 .card {
     background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
     padding: 1.5rem;
     border-radius: 50px 20px;
     max-width: 400px;
@@ -193,7 +194,7 @@ footer {
 
 .card-thanks {
     background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
     padding: 1.5rem;
     border-radius: 50px 20px;
     max-width: 400px;
